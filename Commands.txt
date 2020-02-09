@@ -18,9 +18,44 @@ To set email for more than one we will use as  command
 To check name and email of users we will use in command line
 		========= git config --list ===========
 
-Getting file/folder as stage we will write as command
+Getting one file/folder as stage we will write as command
 	========= git add fileNameWithExtension =========
 
-Getting file/folder as stage we will write as command
+Getting all file/folder at a time as stage we will write as command
 	========= git add --all ========= or
 	========= git add . ========= 
+
+To get committed we use
+	========== git commit -m "all added" ==========
+
+To show all committed files 
+	======= git log ==============
+
+To show all committed files with lower space 
+	======= git log --oneline ==============
+
+For modify we use same process from add stage to commit. But when we will get back from the modified file to previus file then we will coppy the previus commited number and then write the command
+	========= git checkout theNumberofCommitedPreviuscommitted =========
+
+to return back master file
+	======== git checkout master =========
+
+
+To see the letest change we will write	
+	======= git diff ============
+
+To show the commited file
+	======= git show numberOfCommited ========
+
+==================Deleting process ==========
+To remove any file from git permanently then we will use
+	======= git rm fileNameWithExtention =========
+	======= git rm coffee.txt =====
+next
+	======= git reset HEAD coffee.txt ==========
+next
+	======== git  commit -m "deleted peramnently" ==========
+
+
+
+
