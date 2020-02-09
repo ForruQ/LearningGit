@@ -1,0 +1,3 @@
+===============to create a repository we will go to the folder that we want to create as a repository and we will open git bash. then we will write in command line. the command is given bellow:
+
+===========git init==============

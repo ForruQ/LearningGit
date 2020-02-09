@@ -1,0 +1,2 @@
+=========To check name and email of users we will use in command line===========
+		git config --list

@@ -1,0 +1,26 @@
+To create a repository we will go to the folder that we want to create as a repository and we will open git bash. then we will write in command line. the command is given bellow:
+
+		=========== git init ==============
+
+
+To set global name we will use as  command:
+		========== git config --global user.name "Forruq" ===========
+
+To set global Email we will use as  command:
+	 ========== git config --global user.email "forruqahammed@gmail.com" ===========
+
+To set name for more than one we will use as  command
+	 ========== git config user.name "Forruq" ===========
+
+To set email for more than one we will use as  command
+	 ========== git config  user.email "forruqahammed@gmail.com" ===========
+
+To check name and email of users we will use in command line
+		========= git config --list ===========
+
+Getting file/folder as stage we will write as command
+	========= git add fileNameWithExtension =========
+
+Getting file/folder as stage we will write as command
+	========= git add --all ========= or
+	========= git add . ========= 

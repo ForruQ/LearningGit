@@ -1,0 +1,13 @@
+
+==========to set global name we will use as  command===========
+	 git config --global user.name "Forruq"
+
+==========to set global Email we will use as  command===========
+	 git config --global user.email "forruqahammed@gmail.com"
+
+
+==========to set name for more than one we will use as  command===========
+	 git config user.name "Forruq"
+
+==========to set email for more than one we will use as  command===========
+	 git config  user.email "forruqahammed@gmail.com"
